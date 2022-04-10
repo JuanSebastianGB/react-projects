@@ -1,0 +1,37 @@
+.sidebar {
+  flex       : 0.25;
+  max-width  : 250px;
+  margin-left: 16px;
+}
+
+.sidebar>nav {
+  padding-left : 16px;
+  padding-right: 16px;
+}
+
+.sidebar>nav>h3 {
+  color        : #313131;
+  font-size    : 24px;
+  margin-bottom: 16px;
+}
+
+.sidebar>nav>a {
+  display      : block;
+  padding      : 8px 16px;
+  text-align   : left;
+  color        : #888;
+  font-size    : 16px;
+  margin-bottom: 16px;
+
+  background-color: #EEE;
+  border-radius   : 999px;
+  text-decoration : none;
+
+  transition: 0.5s;
+
+}
+
+.sidebar>nav>a:hover {
+  background-color: #313131;
+  color           : #AAA;
+}

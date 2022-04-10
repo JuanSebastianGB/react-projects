@@ -2,8 +2,8 @@ Requires docker, docker-compose.
 
 To run:
 
-git clone 'https://github.com/jikan-me/jikan-docker'
-cd required project
+git clone https://github.com/JuanSebastianGB/react-projects.git'
+cd anime
 docker-compose up
 # or, to daemonize
 docker-compose up -d
